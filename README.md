@@ -1,5 +1,10 @@
-To run the server, use: ./vendor/bin/sail up or sail up
-Reference: https://laravel.com/docs/8.x/sail#starting-and-stopping-sail
+To run the app: php artisan serve (https://laravel.com/docs/4.2/quick#installation)<br>
+To run the server, use: ./vendor/bin/sail up or sail up <br>
+Reference: https://laravel.com/docs/8.x/sail#starting-and-stopping-sail <br>
+sudo systemctl start apache2 <br>
+if failed or address is binded, stop nginx service first by: sudo systemctl stop nginx <br>
+Check for listening port: sudo netstat -tunlp (https://linuxize.com/post/check-listening-ports-linux/)
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
