@@ -20,7 +20,9 @@
     <body class="antialiased">
         @include('inc.navbar');
         <div class="container">
+            @include('inc.messages')
             @yield('content')
         </div>
+        @yield('ckeditor')
     </body>
 </html>
