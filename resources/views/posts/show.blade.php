@@ -3,6 +3,7 @@
 @section('content')
     <a href="/posts" class="btn btn-outline-dark">Back</a>
     <h1>{{$post->title}}</h1>
+    <img src="/storage/cover_images/{{$post->cover_image}}" style="object-fit:cover; width:100%;" alt="Cover Image">
     <p>{!!$post->body!!}</p>
     <hr>
     <small>Written on {{$post->created_at}} by {{$post->user->name}}</small>
